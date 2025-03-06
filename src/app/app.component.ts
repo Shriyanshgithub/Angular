@@ -10,6 +10,7 @@ export class AppComponent {
   imgUrl = '/assets/BL_logo_square_jpg.jpg';
   url ="https://www.bridgeLabz.com";
   title = 'Hello From BridgeLabz';
+  UserName :string = "";
 
   onClick($event:MouseEvent){
     console.log("logo" , $event)
