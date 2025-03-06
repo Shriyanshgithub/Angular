@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  imgUrl = '/assets/BL_logo_square_jpg.jpg'
+  imgUrl = '/assets/BL_logo_square_jpg.jpg';
+  url ="https://www.bridgeLabz.com";
   title = 'Hello From BridgeLabz';
+
+  onClick($event:MouseEvent){
+    console.log("logo" , $event)
+    window.open(this.url, "_blank");
+  }
 }
